@@ -1,48 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Main</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <h1>Tennis market</h1>
+    <h1>김찬희의 포트폴리오</h1>
     <div id="txt_welcome">
-      Welcome to Tennis market! <br />
-      Enjoy your shopping.
+      안녕하세요! <br />
+      참지 않는 개발자 김찬희입니다. <br />
+      제 모습을 소개합니다.
       <br />
       <br />
-      <a href="./orderlist"> order list </a>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr">
       <div class="card">
-        <img class="card_img" src="./img/redRacket.png" />
-        <p class="card_title">Red Racket</p>
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onclick="location.href='/order?productId=1'"
-        />
+        <img class="card_img" src="img/1.jpg" />
+        <p class="card_title">강의 듣는 모습</p>
       </div>
       <div class="card">
-        <img class="card_img" src="./img/blueRacket.png" />
-
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onclick="alert(2);"
-        />
+        <img class="card_img" src="./img/2.jpg" />
+        <p class="card_title">디버깅 하는 모습</p>
       </div>
       <div class="card">
-        <img class="card_img" src="./img/blackRacket.png" />
-        <p class="card_title">Black Racket</p>
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onclick="alert(3);"
-        />
+        <img class="card_img" src="./img/3.jpg" />
+        <p class="card_title">오류를 못찾았을 떄의 모습</p>
+      </div>
+      <div class="card">
+        <img class="card_img" src="./img/4.jpg" />
+        <p class="card_title">도움을 요청하는 모습</p>
       </div>
     </div>
   </body>
